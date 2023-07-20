@@ -1,0 +1,221 @@
+/* Reset default margins and paddings for all elements */
+body, h1, h2, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color or background image for the whole page */
+body {
+    background-color: #f5f5f5; /* Light gray background color for the whole page */
+}
+
+/* Header styles */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header img {
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff; /* White company name color */
+}
+
+header p {
+    font-size: 16px;
+    color: #ccc; /* Light gray address and tel number color */
+}
+
+/* Add scrolling effect to the address */
+.scrolling-address {
+    overflow: hidden;
+    white-space: nowrap;
+    color: #fff; /* White address text color */
+    animation: scrollAddress 10s linear infinite;
+}
+
+@keyframes scrollAddress {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+/* Section styles */
+section {
+    padding: 40px;
+}
+
+/* Black section background */
+.section-black {
+    background-color: #000;
+}
+
+/* Purple section background */
+.section-purple {
+    background-color: #8a2be2;
+    color: #fff; /* White text color for the purple section */
+}
+
+/* White section background */
+.section-white {
+    background-color: #fff;
+    color: #333; /* Dark gray text color for the white section */
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+}
+/* Reset default margins and paddings for all elements */
+body, h1, h2, h3, p, ul, li, a, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color or background image for the whole page */
+body {
+    background-color: #f5f5f5; /* Light gray background color for the whole page */
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #000; /* Black background color for the navigation bar */
+    padding: 10px;
+}
+
+nav a {
+    color: #fff; /* White text color for navigation links */
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Dark gray heading color */
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Product list styles */
+.products-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.products-list li {
+    width: calc(33.33% - 10px); /* Adjust the width as needed */
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.products-list img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.products-list p {
+    font-size: 16px;
+    color: #555; /* Medium gray text color for product descriptions */
+}
+/* Reset default margins and paddings for all elements */
+body, h1, h2, h3, p, ul, li, a, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color or background image for the whole page */
+body {
+    background-color: #f5f5f5; /* Light gray background color for the whole page */
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #000; /* Black background color for the navigation bar */
+    padding: 10px;
+}
+
+nav a {
+    color: #fff; /* White text color for navigation links */
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Dark gray heading color */
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Branch list styles */
+.branches-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Adjust the number of columns as needed */
+    gap: 20px;
+}
+
+.branches-list li {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9; /* Light gray background color for list items */
+}
+
+.branches-list h3 {
+    font-size: 20px;
+    color: #555; /* Medium gray heading color for branch names */
+    margin-bottom: 10px;
+}
+
+.branches-list p {
+    font-size: 16px;
+    color: #777; /* Dark gray text color for location and address */
+    margin-bottom: 5px;
+}
